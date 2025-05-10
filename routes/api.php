@@ -5,17 +5,17 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\Api\entidadController;
 
-// Obtener todas las tareas
+// Obtener todas las entidades
 Route::get('/entidades', [entidadController::class, 'index']);
 
-// Crear una nueva tarea
+// Crear una nueva entidad
 Route::post('/entidades', [entidadController::class, 'store']);
 
-// Obtener una tarea por ID
+// Obtener una entidad por ID
 Route::get('/entidades/{id}', [entidadController::class, 'show']);
 
-// Eliminar una tarea por ID
+// Eliminar una entidad por ID
 Route::delete('/entidades/{id}', [entidadController::class, 'destroy']);
 
-// Actualizar una tarea completa por ID
+// Actualizar una entidad completa por ID
 Route::put('/entidades/{id}', [entidadController::class, 'update']);

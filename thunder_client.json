@@ -1,0 +1,81 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "prueba_mobo_thunder_client",
+    "collectionId": "36310fee-4658-43f2-b993-55ffea93afb5",
+    "dateExported": "2025-05-10T17:43:24.681Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "3ca9ef4a-bdaf-4357-a0a2-7c5525afb36d",
+            "colId": "36310fee-4658-43f2-b993-55ffea93afb5",
+            "containerId": "",
+            "name": "Obtener todas las entidades",
+            "url": "http://127.0.0.1:8000/api/entidades",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2025-05-10T02:08:55.118Z",
+            "modified": "2025-05-10T17:38:07.189Z",
+            "headers": []
+        },
+        {
+            "_id": "fddd222e-aa36-48d0-b087-10cf2a7cc338",
+            "colId": "36310fee-4658-43f2-b993-55ffea93afb5",
+            "containerId": "",
+            "name": "Obtener entidad por su id",
+            "url": "http://127.0.0.1:8000/api/entidades/2",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2025-05-10T02:08:47.967Z",
+            "modified": "2025-05-10T17:38:18.180Z",
+            "headers": []
+        },
+        {
+            "_id": "b7490a8e-6cf4-48e4-b6ce-57451818837c",
+            "colId": "36310fee-4658-43f2-b993-55ffea93afb5",
+            "containerId": "",
+            "name": "Eliminar entidad por su id",
+            "url": "http://127.0.0.1:8000/api/entidades/1",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2025-05-10T02:08:42.807Z",
+            "modified": "2025-05-10T17:38:25.453Z",
+            "headers": []
+        },
+        {
+            "_id": "954616dc-aaf0-4061-b652-a65ec7fda84c",
+            "colId": "36310fee-4658-43f2-b993-55ffea93afb5",
+            "containerId": "",
+            "name": "Crear nueva entidad",
+            "url": "http://127.0.0.1:8000/api/entidades",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2025-05-10T02:08:52.254Z",
+            "modified": "2025-05-10T17:39:40.470Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n \"nombre\": \"Entidad 1\",\n \"descripcion\": \"lorem impsum dolor asimet\",\n \"estado\": \"activo\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "1277cff5-707a-4213-8477-5516e8d9ca9d",
+            "colId": "36310fee-4658-43f2-b993-55ffea93afb5",
+            "containerId": "",
+            "name": "Actualizar entidad por su id",
+            "url": "http://127.0.0.1:8000/api/entidades/4",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2025-05-10T02:11:27.337Z",
+            "modified": "2025-05-10T17:40:55.980Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n \"nombre\": \"Nuevo nombre\",\n \"estado\": \"A\" // Arroja un error\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "D7kxR2tEIp-wGVBH-WCASFaRGU8R0Ksc9P3A5Ltlg_MX5GQgSOyPCxOOB8sR_c2BAPziIJ8zlWwpwu9tNfvdRg"
+}
